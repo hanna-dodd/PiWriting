@@ -1,5 +1,12 @@
 ## CS3307 - Stage 3 Group 16
 
+## Description:
+
+This project was created for CS3307 Fall 2020.    
+PiWriting is able to take an image of a handwritten sentence or message and convert it to digital text form. The text can then be read aloud or saved as a separate file for further use. Our goal was to make this system as easy to use as possible so that it can be useful ffor those with visual impairments or disabilities that affect a person's ability to read or take notes.  
+
+Created by: Bennett McDonald, Connor Ciavarella, Hanna Dodd, Maximilian Smosarski, Jerrie Berrafati
+
 ## Preparing to Build:
 
 cd downloads    
@@ -46,6 +53,3 @@ Converting to .wav file:
 * Test that the .wav file exists in the directory and can be opened - PASS
 * Test that the played sound can be heard - PASS
 * Test that the audio matches the shown text box - PASS
-
-
-Project by Group 16: Bennett McDonald, Connor Ciavarella, Hanna Dodd, Maximilian Smosarski, Jerrie Berrafati
