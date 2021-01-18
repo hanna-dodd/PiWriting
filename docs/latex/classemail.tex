@@ -1,0 +1,142 @@
+\hypertarget{classemail}{}\doxysection{email Class Reference}
+\label{classemail}\index{email@{email}}
+
+
+Email class.  
+
+
+
+
+{\ttfamily \#include $<$email.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classemail_ab7132f2efd41a1858cc0ebc68c3f58a7}\label{classemail_ab7132f2efd41a1858cc0ebc68c3f58a7}} 
+\mbox{\hyperlink{classemail_ab7132f2efd41a1858cc0ebc68c3f58a7}{email}} (std\+::string, std\+::string, std\+::string)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classemail_aaf72f1b7a1c4c9616531cc89a8ad91ee}{$\sim$email}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classemail_af018ba5363980dd3bddc008806c56c73}{smtp\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Connects to S\+M\+TP. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classemail_a6a15345fdfca52d219f1373a9701e1fe}{imap\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Connects to I\+M\+AP. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_a81a7ae6143b38e22332904dfd7ce9a17}\label{classemail_a81a7ae6143b38e22332904dfd7ce9a17}} 
+int \mbox{\hyperlink{classemail_a81a7ae6143b38e22332904dfd7ce9a17}{sendmail}} (std\+::string, std\+::string, std\+::string)
+\begin{DoxyCompactList}\small\item\em Sends mail from current email address. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classemail_aa918e64fa933a2f10d9a1bfbad76615b}{getmail}} ()
+\begin{DoxyCompactList}\small\item\em Get mail from current email address. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_ab7132f2efd41a1858cc0ebc68c3f58a7}\label{classemail_ab7132f2efd41a1858cc0ebc68c3f58a7}} 
+\mbox{\hyperlink{classemail_ab7132f2efd41a1858cc0ebc68c3f58a7}{email}} (std\+::string, std\+::string, std\+::string)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_aaf72f1b7a1c4c9616531cc89a8ad91ee}\label{classemail_aaf72f1b7a1c4c9616531cc89a8ad91ee}} 
+\mbox{\hyperlink{classemail_aaf72f1b7a1c4c9616531cc89a8ad91ee}{$\sim$email}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_aefe70f58a89eac2c3051163d90432679}\label{classemail_aefe70f58a89eac2c3051163d90432679}} 
+std\+::string \mbox{\hyperlink{classemail_aefe70f58a89eac2c3051163d90432679}{smtp\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Connects to S\+M\+TP. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_a57fc9ee921e7be03de0cd9d5fe09d48c}\label{classemail_a57fc9ee921e7be03de0cd9d5fe09d48c}} 
+std\+::string \mbox{\hyperlink{classemail_a57fc9ee921e7be03de0cd9d5fe09d48c}{imap\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Connects to I\+M\+AP. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_a81a7ae6143b38e22332904dfd7ce9a17}\label{classemail_a81a7ae6143b38e22332904dfd7ce9a17}} 
+int \mbox{\hyperlink{classemail_a81a7ae6143b38e22332904dfd7ce9a17}{sendmail}} (std\+::string, std\+::string, std\+::string)
+\begin{DoxyCompactList}\small\item\em Sends mail from current email address. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classemail_a70c68b0b9e2ef1ecb7ce2e015865ab4e}\label{classemail_a70c68b0b9e2ef1ecb7ce2e015865ab4e}} 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classemail_a70c68b0b9e2ef1ecb7ce2e015865ab4e}{getmail}} ()
+\begin{DoxyCompactList}\small\item\em Get mail from current email address. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classemail_ac3acc1d63c63fcc0ba193c699df511d1}\label{classemail_ac3acc1d63c63fcc0ba193c699df511d1}} 
+std\+::string {\bfseries addr}
+\item 
+\mbox{\Hypertarget{classemail_a6a8ccca4f77e9390a6ff3b9e5e154c71}\label{classemail_a6a8ccca4f77e9390a6ff3b9e5e154c71}} 
+std\+::string {\bfseries psswd}
+\item 
+\mbox{\Hypertarget{classemail_a191c58c0dac75746726235345d22ceec}\label{classemail_a191c58c0dac75746726235345d22ceec}} 
+std\+::string {\bfseries name}
+\item 
+\mbox{\Hypertarget{classemail_a358d2773bcb02394f420df0306bb3660}\label{classemail_a358d2773bcb02394f420df0306bb3660}} 
+std\+::string {\bfseries provider}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Email class. 
+
+Allows emails to be sent to and from the application. \begin{DoxyAuthor}{Author}
+Connor Ciavarella 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classemail_aaf72f1b7a1c4c9616531cc89a8ad91ee}\label{classemail_aaf72f1b7a1c4c9616531cc89a8ad91ee}} 
+\index{email@{email}!````~email@{$\sim$email}}
+\index{````~email@{$\sim$email}!email@{email}}
+\doxysubsubsection{\texorpdfstring{$\sim$email()}{~email()}}
+{\footnotesize\ttfamily email\+::$\sim$email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor. 
+
+Default Destructor. ~\newline
+
+
+Destroys a file object. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classemail_aa918e64fa933a2f10d9a1bfbad76615b}\label{classemail_aa918e64fa933a2f10d9a1bfbad76615b}} 
+\index{email@{email}!getmail@{getmail}}
+\index{getmail@{getmail}!email@{email}}
+\doxysubsubsection{\texorpdfstring{getmail()}{getmail()}}
+{\footnotesize\ttfamily vector$<$ string $>$ email\+::getmail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get mail from current email address. 
+
+Gets mail from the current objects account. ~\newline
+
+
+Gets the most recent mail from the current inbox and downloads the attachments in it. \begin{DoxyReturn}{Returns}
+A vector containing all of the attachment names from the most current email. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classemail_a6a15345fdfca52d219f1373a9701e1fe}\label{classemail_a6a15345fdfca52d219f1373a9701e1fe}} 
+\index{email@{email}!imapServer@{imapServer}}
+\index{imapServer@{imapServer}!email@{email}}
+\doxysubsubsection{\texorpdfstring{imapServer()}{imapServer()}}
+{\footnotesize\ttfamily string email\+::imap\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Connects to I\+M\+AP. 
+
+Connects to I\+M\+AP server. ~\newline
+
+
+Returns the correct I\+M\+AP server based on the given provider. \begin{DoxyReturn}{Returns}
+The correct I\+M\+AP server. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classemail_af018ba5363980dd3bddc008806c56c73}\label{classemail_af018ba5363980dd3bddc008806c56c73}} 
+\index{email@{email}!smtpServer@{smtpServer}}
+\index{smtpServer@{smtpServer}!email@{email}}
+\doxysubsubsection{\texorpdfstring{smtpServer()}{smtpServer()}}
+{\footnotesize\ttfamily string email\+::smtp\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Connects to S\+M\+TP. 
+
+Connects to S\+M\+TP server. ~\newline
+
+
+Returns the correct S\+M\+TP server based on the given provider. \begin{DoxyReturn}{Returns}
+The correct S\+M\+TP server. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+email.\+h\item 
+email.\+cpp\end{DoxyCompactItemize}

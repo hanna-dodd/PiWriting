@@ -1,0 +1,126 @@
+\hypertarget{classTranslator}{}\doxysection{Translator Class Reference}
+\label{classTranslator}\index{Translator@{Translator}}
+
+
+\mbox{\hyperlink{classTranslator}{Translator}} class implementation.  
+
+
+
+
+{\ttfamily \#include $<$Translator.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTranslator_a661f88b13aab7110d5ef6ec0a73fa295}{Translator}} (std\+::string, std\+::string)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTranslator_a9c262ba866126a6a35e979a64d7e3518}\label{classTranslator_a9c262ba866126a6a35e979a64d7e3518}} 
+\mbox{\hyperlink{classTranslator_a9c262ba866126a6a35e979a64d7e3518}{$\sim$\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classTranslator_af42b6e2784d486e8bda37cba37c57651}{getlangto}} ()
+\begin{DoxyCompactList}\small\item\em Language to Getter. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classTranslator_adeee8144549ebf28e22ab4ce2a3f9fcc}{getlangfrom}} ()
+\begin{DoxyCompactList}\small\item\em Language from Getter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOutput}{Output}} \mbox{\hyperlink{classTranslator_ae8e8ec33fdc57f6b1eb689b5adac070d}{translate}} (\mbox{\hyperlink{classOutput}{Output}}, std\+::string)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classTranslator}{Translator}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classTranslator_ab16ae4b68d6b2534a614aebb6b3efe8a}\label{classTranslator_ab16ae4b68d6b2534a614aebb6b3efe8a}} 
+std\+::string \mbox{\hyperlink{classTranslator_ab16ae4b68d6b2534a614aebb6b3efe8a}{langto}}
+\begin{DoxyCompactList}\small\item\em Language to translate to. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTranslator_aef70dda3b133d49ccda63e86ffa964c4}\label{classTranslator_aef70dda3b133d49ccda63e86ffa964c4}} 
+std\+::string \mbox{\hyperlink{classTranslator_aef70dda3b133d49ccda63e86ffa964c4}{langfrom}}
+\begin{DoxyCompactList}\small\item\em Language to translate from. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classTranslator}{Translator}} class implementation. 
+
+Translates the \mbox{\hyperlink{classOutput}{Output}} string to a given language. \begin{DoxyAuthor}{Author}
+Hanna Dodd 
+
+Bennett Mc\+Donald 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTranslator_a661f88b13aab7110d5ef6ec0a73fa295}\label{classTranslator_a661f88b13aab7110d5ef6ec0a73fa295}} 
+\index{Translator@{Translator}!Translator@{Translator}}
+\index{Translator@{Translator}!Translator@{Translator}}
+\doxysubsubsection{\texorpdfstring{Translator()}{Translator()}}
+{\footnotesize\ttfamily Translator\+::\+Translator (\begin{DoxyParamCaption}\item[{std\+::string}]{,  }\item[{std\+::string}]{ }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Constructor. ~\newline
+
+
+Creates a translator object. 
+\begin{DoxyParams}{Parameters}
+{\em Langto} & -\/ language to translate to. \\
+\hline
+{\em Langfrom} & -\/ language to translate from. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTranslator_adeee8144549ebf28e22ab4ce2a3f9fcc}\label{classTranslator_adeee8144549ebf28e22ab4ce2a3f9fcc}} 
+\index{Translator@{Translator}!getlangfrom@{getlangfrom}}
+\index{getlangfrom@{getlangfrom}!Translator@{Translator}}
+\doxysubsubsection{\texorpdfstring{getlangfrom()}{getlangfrom()}}
+{\footnotesize\ttfamily string Translator\+::getlangfrom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Language from Getter. 
+
+Language from getter.
+
+Gets the language to translate from. \begin{DoxyReturn}{Returns}
+The language code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTranslator_af42b6e2784d486e8bda37cba37c57651}\label{classTranslator_af42b6e2784d486e8bda37cba37c57651}} 
+\index{Translator@{Translator}!getlangto@{getlangto}}
+\index{getlangto@{getlangto}!Translator@{Translator}}
+\doxysubsubsection{\texorpdfstring{getlangto()}{getlangto()}}
+{\footnotesize\ttfamily string Translator\+::getlangto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Language to Getter. 
+
+Language to getter.
+
+Gets the language to translate to. \begin{DoxyReturn}{Returns}
+The language. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTranslator_ae8e8ec33fdc57f6b1eb689b5adac070d}\label{classTranslator_ae8e8ec33fdc57f6b1eb689b5adac070d}} 
+\index{Translator@{Translator}!translate@{translate}}
+\index{translate@{translate}!Translator@{Translator}}
+\doxysubsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOutput}{Output}} Translator\+::translate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOutput}{Output}}}]{,  }\item[{std\+::string}]{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classTranslator}{Translator}}. 
+
+Translates the string from the \mbox{\hyperlink{classOutput}{Output}} object to the given language. 
+\begin{DoxyParams}{Parameters}
+{\em output} & -\/ the object containing the string to be translated. \\
+\hline
+{\em langto} & -\/ the language to translate the string to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The translated \mbox{\hyperlink{classOutput}{Output}} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Translator.\+h\item 
+Translator.\+cpp\end{DoxyCompactItemize}

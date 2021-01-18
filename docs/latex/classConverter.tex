@@ -1,0 +1,60 @@
+\hypertarget{classConverter}{}\doxysection{Converter Class Reference}
+\label{classConverter}\index{Converter@{Converter}}
+
+
+\mbox{\hyperlink{classConverter}{Converter}} class.  
+
+
+
+
+{\ttfamily \#include $<$Converter.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classConverter_a1de81f3e06093411e5d27ce882bc010f}\label{classConverter_a1de81f3e06093411e5d27ce882bc010f}} 
+\mbox{\hyperlink{classConverter_a1de81f3e06093411e5d27ce882bc010f}{Converter}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classConverter_a9ecd05695a52c03158b81e544e13b996}\label{classConverter_a9ecd05695a52c03158b81e544e13b996}} 
+\mbox{\hyperlink{classConverter_a9ecd05695a52c03158b81e544e13b996}{$\sim$\+Converter}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOutput}{Output}} \mbox{\hyperlink{classConverter_a3c59945ae06ccae7f827e4f1948ca0cc}{imagetostring}} (\mbox{\hyperlink{classFile}{File}})
+\begin{DoxyCompactList}\small\item\em Image to string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classConverter}{Converter}} class. 
+
+Converts image file to string output in english. \begin{DoxyAuthor}{Author}
+Maximilian Smosarski 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classConverter_a3c59945ae06ccae7f827e4f1948ca0cc}\label{classConverter_a3c59945ae06ccae7f827e4f1948ca0cc}} 
+\index{Converter@{Converter}!imagetostring@{imagetostring}}
+\index{imagetostring@{imagetostring}!Converter@{Converter}}
+\doxysubsubsection{\texorpdfstring{imagetostring()}{imagetostring()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOutput}{Output}} Converter\+::imagetostring (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFile}{File}}}]{image }\end{DoxyParamCaption})}
+
+
+
+Image to string. 
+
+Converts png or jpeg to string. ~\newline
+
+
+Uses Tesseract A\+PI to recognize characters from an image \mbox{\hyperlink{classFile}{File}} object and format into an \mbox{\hyperlink{classOutput}{Output}} object. 
+\begin{DoxyParams}{Parameters}
+{\em Image} & -\/ the image file object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classOutput}{Output}} object containing converted text and language. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Converter.\+h\item 
+Converter.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,142 @@
+\hypertarget{classFileHandler}{}\doxysection{File\+Handler Class Reference}
+\label{classFileHandler}\index{FileHandler@{FileHandler}}
+
+
+\mbox{\hyperlink{classFileHandler}{File\+Handler}} class.  
+
+
+
+
+{\ttfamily \#include $<$File\+Handler.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classFileHandler_a0d1ac8e9911e19255e8b2d99c2d93f43}\label{classFileHandler_a0d1ac8e9911e19255e8b2d99c2d93f43}} 
+\mbox{\hyperlink{classFileHandler_a0d1ac8e9911e19255e8b2d99c2d93f43}{File\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFileHandler_a1ce10cd0ad31b313a8d526fba6f1e676}\label{classFileHandler_a1ce10cd0ad31b313a8d526fba6f1e676}} 
+\mbox{\hyperlink{classFileHandler_a1ce10cd0ad31b313a8d526fba6f1e676}{$\sim$\+File\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFile}{File}} \mbox{\hyperlink{classFileHandler_ab2296b688bf436295522930ac0ead2d9}{writetotxt}} (\mbox{\hyperlink{classOutput}{Output}})
+\begin{DoxyCompactList}\small\item\em Write to Text. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFile}{File}} \mbox{\hyperlink{classFileHandler_a43395dcbfca23fc9fccd5ca2500a031b}{writetodoc}} (\mbox{\hyperlink{classOutput}{Output}})
+\begin{DoxyCompactList}\small\item\em Write to Doc. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFile}{File}} \mbox{\hyperlink{classFileHandler_ab6a31c949d960911f7214e4913f5c3bf}{writetoaudio}} (\mbox{\hyperlink{classOutput}{Output}})
+\begin{DoxyCompactList}\small\item\em Write to Wav. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFileHandler_af3eaab18eea4abb9144494c84379b8c2}{playaudio}} (\mbox{\hyperlink{classOutput}{Output}})
+\begin{DoxyCompactList}\small\item\em Play audio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classFileHandler}{File\+Handler}} class. 
+
+Converts \mbox{\hyperlink{classFile}{File}} objects from one type to another. \begin{DoxyAuthor}{Author}
+Maximilian Smosarski 
+
+Connor Ciavarella 
+
+Bennett Mc\+Donald 
+
+Jerrie Berrafati 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFileHandler_af3eaab18eea4abb9144494c84379b8c2}\label{classFileHandler_af3eaab18eea4abb9144494c84379b8c2}} 
+\index{FileHandler@{FileHandler}!playaudio@{playaudio}}
+\index{playaudio@{playaudio}!FileHandler@{FileHandler}}
+\doxysubsubsection{\texorpdfstring{playaudio()}{playaudio()}}
+{\footnotesize\ttfamily void File\+Handler\+::playaudio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOutput}{Output}}}]{output }\end{DoxyParamCaption})}
+
+
+
+Play audio. 
+
+Plays the \mbox{\hyperlink{classOutput}{Output}} string out loud.
+
+Speaks the string out loud through the Pi using espeak. \begin{DoxyAuthor}{Author}
+Jerrie Berrafati 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classOutput}{Output}}} & -\/ the \mbox{\hyperlink{classOutput}{Output}} object converted from the image. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classFileHandler_ab6a31c949d960911f7214e4913f5c3bf}\label{classFileHandler_ab6a31c949d960911f7214e4913f5c3bf}} 
+\index{FileHandler@{FileHandler}!writetoaudio@{writetoaudio}}
+\index{writetoaudio@{writetoaudio}!FileHandler@{FileHandler}}
+\doxysubsubsection{\texorpdfstring{writetoaudio()}{writetoaudio()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFile}{File}} File\+Handler\+::writetoaudio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOutput}{Output}}}]{output }\end{DoxyParamCaption})}
+
+
+
+Write to Wav. 
+
+Converts \mbox{\hyperlink{classOutput}{Output}} to a .wav file.
+
+Saves a .wav file to the current directory containing the string output. \begin{DoxyAuthor}{Author}
+Jerrie Berrafati 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classOutput}{Output}}} & -\/ the \mbox{\hyperlink{classOutput}{Output}} object converted from the image. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classFile}{File}} object containing the file name and type of the converted file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFileHandler_a43395dcbfca23fc9fccd5ca2500a031b}\label{classFileHandler_a43395dcbfca23fc9fccd5ca2500a031b}} 
+\index{FileHandler@{FileHandler}!writetodoc@{writetodoc}}
+\index{writetodoc@{writetodoc}!FileHandler@{FileHandler}}
+\doxysubsubsection{\texorpdfstring{writetodoc()}{writetodoc()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFile}{File}} File\+Handler\+::writetodoc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOutput}{Output}}}]{output }\end{DoxyParamCaption})}
+
+
+
+Write to Doc. 
+
+Converts \mbox{\hyperlink{classOutput}{Output}} to a .docx file.
+
+Saves a .docx file to the current directory containing the string output. \begin{DoxyAuthor}{Author}
+Connor Ciavarella 
+
+Bennett Mc\+Donald 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classOutput}{Output}}} & -\/ the \mbox{\hyperlink{classOutput}{Output}} object converted from the image. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classFile}{File}} object containing the file name and type of the converted file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFileHandler_ab2296b688bf436295522930ac0ead2d9}\label{classFileHandler_ab2296b688bf436295522930ac0ead2d9}} 
+\index{FileHandler@{FileHandler}!writetotxt@{writetotxt}}
+\index{writetotxt@{writetotxt}!FileHandler@{FileHandler}}
+\doxysubsubsection{\texorpdfstring{writetotxt()}{writetotxt()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFile}{File}} File\+Handler\+::writetotxt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOutput}{Output}}}]{output }\end{DoxyParamCaption})}
+
+
+
+Write to Text. 
+
+Converts \mbox{\hyperlink{classOutput}{Output}} to a .txt file.
+
+Saves a .txt file to the current directory containing the string output. \begin{DoxyAuthor}{Author}
+Maximilian Smosarski 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classOutput}{Output}}} & -\/ the \mbox{\hyperlink{classOutput}{Output}} object converted from the image. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classFile}{File}} object containing the file name and type of the converted file. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+File\+Handler.\+h\item 
+File\+Handler.\+cpp\end{DoxyCompactItemize}
