@@ -1,5 +1,3 @@
-## CS3307 - Stage 3 Group 16
-
 ## Description:
 
 This project was created for CS3307 Fall 2020.    
@@ -9,6 +7,8 @@ Created by: Bennett McDonald, Connor Ciavarella, Hanna Dodd, Maximilian Smosarsk
 
 ## Preparing to Build:
 
+This program was developed to be run on the Raspberry Pi.    
+    
 cd downloads    
 sudo bash installp1.sh      
 
